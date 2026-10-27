@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            tools:text="Blue Umbrella" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:padding="14dp">
+
+                <TextView android:text="@string/label_type" android:textStyle="bold" android:layout_marginEnd="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/tv_detail_type" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="FOUND" />
+                <TextView android:text="@string/label_category" android:textStyle="bold" android:layout_marginTop="6dp" android:layout_marginEnd="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/tv_detail_category" android:layout_marginTop="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="Umbrella" />
+                <TextView android:text="@string/label_location" android:textStyle="bold" android:layout_marginTop="6dp" android:layout_marginEnd="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/tv_detail_location" android:layout_marginTop="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="Student Center" />
+                <TextView android:text="@string/label_date" android:textStyle="bold" android:layout_marginTop="6dp" android:layout_marginEnd="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/tv_detail_date" android:layout_marginTop="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="2026-10-26" />
+                <TextView android:text="@string/label_status" android:textStyle="bold" android:layout_marginTop="6dp" android:layout_marginEnd="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/tv_detail_status" android:layout_marginTop="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bg_badge" android:paddingHorizontal="10dp" android:paddingVertical="2dp" android:textColor="@color/white" android:textSize="12sp" android:textStyle="bold" tools:text="OPEN" />
+            </GridLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/label_description"
+            android:textAppearance="?attr/textAppearanceTitleSmall" />
+
+        <TextView
+            android:id="@+id/tv_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            tools:text="Found near the cafeteria entrance." />
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/jei_teal_dark"
+            android:visibility="gone" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_claim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_claim"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

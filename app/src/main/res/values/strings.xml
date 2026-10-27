@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JEI Lost &amp; Found</string>
+    <string name="title_items">JEI Lost &amp; Found</string>
+    <string name="title_detail">Item Details</string>
+    <string name="title_report">Report Item</string>
+    <string name="title_my_reports">My Reports</string>
+    <string name="menu_items">Items</string>
+    <string name="menu_my_reports">My Reports</string>
+
+    <string name="search_hint">Search item or location…</string>
+    <string name="chip_all">All</string>
+    <string name="chip_lost">Lost</string>
+    <string name="chip_found">Found</string>
+    <string name="chip_returned">Returned</string>
+    <string name="chip_open">Open</string>
+    <string name="no_items">No items match your search.</string>
+    <string name="no_reports">You have not reported any items yet.</string>
+    <string name="report_item">Report an item</string>
+
+    <string name="label_type">Type</string>
+    <string name="label_category">Category</string>
+    <string name="label_location">Location</string>
+    <string name="label_date">Date</string>
+    <string name="label_description">Description</string>
+    <string name="label_status">Status</string>
+    <string name="label_title">Title</string>
+    <string name="type_lost">LOST</string>
+    <string name="type_found">FOUND</string>
+    <string name="status_open">OPEN</string>
+    <string name="status_claimed">CLAIMED</string>
+    <string name="status_returned">RETURNED</string>
+
+    <string name="btn_claim">This is mine / Submit Claim</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_returned">Mark Returned</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+
+    <string name="claim_title">Submit a claim</string>
+    <string name="claim_hint">Explain why this item is yours</string>
+    <string name="claim_saved">Claim submitted.</string>
+    <string name="claim_empty">Please write a short message.</string>
+    <string name="own_item_hint">You reported this item.</string>
+    <string name="returned_hint">This item has already been returned.</string>
+    <string name="report_saved">Report saved.</string>
+    <string name="report_deleted">Report deleted.</string>
+    <string name="marked_returned">Marked as returned.</string>
+    <string name="delete_title">Delete report?</string>
+    <string name="delete_message">This report will be removed.</string>
+    <string name="error_required">Please fill in the title, location, and description.</string>
+    <string name="meta_format">%1$s  ·  %2$s</string>
+    <string name="date_location_format">%1$s   %2$s</string>
+</resources>

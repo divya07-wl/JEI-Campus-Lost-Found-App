@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/itemListFragment">
+
+    <fragment
+        android:id="@+id/itemListFragment"
+        android:name="com.jei.lostfound.ui.list.ItemListFragment"
+        android:label="@string/title_items">
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/itemDetailFragment" />
+        <action
+            android:id="@+id/action_list_to_report"
+            app:destination="@id/reportItemFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.jei.lostfound.ui.detail.ItemDetailFragment"
+        android:label="@string/title_detail">
+        <argument
+            android:name="itemId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reportItemFragment"
+        android:name="com.jei.lostfound.ui.report.ReportItemFragment"
+        android:label="@string/title_report" />
+
+    <fragment
+        android:id="@+id/myReportsFragment"
+        android:name="com.jei.lostfound.ui.myreports.MyReportsFragment"
+        android:label="@string/title_my_reports">
+        <action
+            android:id="@+id/action_reports_to_detail"
+            app:destination="@id/itemDetailFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="jei_teal">#0F6E56</color>
+    <color name="jei_teal_dark">#0A4A3A</color>
+    <color name="jei_teal_light">#D8F3EA</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="badge_lost">#C62828</color>
+    <color name="badge_found">#0F6E56</color>
+    <color name="badge_open">#1F6FEB</color>
+    <color name="badge_claimed">#E07A00</color>
+    <color name="badge_returned">#6B7280</color>
+    <color name="error_red">#C62828</color>
+</resources>
